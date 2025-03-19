@@ -27,7 +27,6 @@ export default function Home() {
 
       <main>
   <Header title={["Hello, I'm myAster, your virtual assistant.", <br key="break" />, "How can I assist you today?"]} />
-    <button onclick="location.window.reload();">Start New Chat</button>
 </main>
 
 
@@ -47,7 +46,7 @@ export default function Home() {
           '--df-messenger-font-color': '#000',
           '--df-messenger-font-family': 'Google Sans',
           '--df-messenger-chat-background': '#EEF7EE',
-          '--df-messenger-message-user-background': '#097138',
+          '--df-messenger-message-user-background': '#0fb85b',
           '--df-messenger-message-bot-background': '#fff',
         }}
       >
