@@ -26,10 +26,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <Header title="Hello, I'm myAster, your virtual assistant. How can I assist you today?" />
       </main>
 
       <Footer />
@@ -43,18 +40,16 @@ export default function Home() {
         style={{
           zIndex: 999,
           position: 'fixed',
-          bottom: 0,
-          right: 0,
-          top: 0,
-          width: '350px',
+          bottom: '16px',
+          right: '16px',
           '--df-messenger-font-color': '#000',
           '--df-messenger-font-family': 'Google Sans',
-          '--df-messenger-chat-background': '#f3f6fc',
-          '--df-messenger-message-user-background': '#d3e3fd',
+          '--df-messenger-chat-background': '#EEF7EE',
+          '--df-messenger-message-user-background': '#097138',
           '--df-messenger-message-bot-background': '#fff',
         }}
       >
-        <df-messenger-chat chat-title="myAster"></df-messenger-chat>
+        <df-messenger-chat-bubble chat-title="myAster Assistant"></df-messenger-chat-bubble>
       </df-messenger>
     </div>
   );
