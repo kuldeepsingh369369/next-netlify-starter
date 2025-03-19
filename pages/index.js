@@ -18,15 +18,6 @@ export default function Home() {
     document.body.appendChild(script);
   }, []);
 
-  const handleClearStorage = () => {
-    localStorage.clear();
-    alert('Local storage cleared');
-  };
-
-  const handleReload = () => {
-    location.reload();
-  };
-
   return (
     <div className="container">
       <Head>
@@ -35,16 +26,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title={["Hello, I'm myAster, your virtual assistant.", <br key="break" />, "How can I assist you today?"]} />
-        
-        {/* Button to clear localStorage */}
-        <button onClick={handleClearStorage}>Clear Local Storage</button>
+  <Header title={["Hello, I'm myAster, your virtual assistant.", <br key="break" />, "How can I assist you today?"]} />
+    <button onclick="location.window.reload();">Start New Chat</button>
+</main>
 
-        {/* Button to reload the page */}
-        <button onClick={handleReload}>Reload Page</button>
-
-        <button onClick={() => location.reload()}>Start New Chat</button>
-      </main>
 
       <Footer />
 
@@ -59,7 +44,7 @@ export default function Home() {
           position: 'fixed',
           bottom: '16px',
           right: '16px',
-          '--df-messenger-font-color': '#FFF',
+          '--df-messenger-font-color': '#000',
           '--df-messenger-font-family': 'Google Sans',
           '--df-messenger-chat-background': '#EEF7EE',
           '--df-messenger-message-user-background': '#097138',
