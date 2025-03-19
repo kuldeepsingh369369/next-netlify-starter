@@ -26,8 +26,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Hello, I'm myAster, your virtual assistant. <br/> How can I assist you today?" />
-      </main>
+  <Header title={["Hello, I'm myAster, your virtual assistant.", <br key="break" />, "How can I assist you today?"]} />
+</main>
+
 
       <Footer />
 
