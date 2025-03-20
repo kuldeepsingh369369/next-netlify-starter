@@ -43,10 +43,10 @@ export default function Home() {
           position: 'fixed',
           bottom: '16px',
           right: '16px',
-          '--df-messenger-font-color': '#000',
-          '--df-messenger-font-family': 'Google Sans',
-          '--df-messenger-chat-background': '#EEF7EE',
-          '--df-messenger-message-user-background': '#0fb85b',
+          '--df-messenger-font-color': '#097138',
+          '--df-messenger-font-family': 'Roboto',
+          '--df-messenger-chat-background': '#FFFFFF',
+          '--df-messenger-message-user-background': '#C8E6C9',
           '--df-messenger-message-bot-background': '#fff',
         }}
       >
