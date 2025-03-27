@@ -35,19 +35,20 @@ export default function Home() {
       {/* Dialogflow Messenger */}
       <df-messenger
         project-id="aster-prod-375112"
-        agent-id="8226ecbb-5838-41c6-bffb-1b1730bb1d0d"
+        agent-id="35520a2b-8518-4033-885d-67c474e3292a"
         language-code="en"
         max-query-length="-1"
+        allow-feedback="all"
         style={{
           zIndex: 999,
           position: 'fixed',
           bottom: '16px',
           right: '16px',
-          '--df-messenger-font-color': '#097138',
+          '--df-messenger-font-color': '#000',
           '--df-messenger-font-family': 'Roboto',
-          '--df-messenger-chat-background': '#FFFFFF',
+          '--df-messenger-chat-background': '#fff',
           '--df-messenger-message-user-background': '#C8E6C9',
-          '--df-messenger-message-bot-background': '#fff',
+          '--df-messenger-message-bot-background': '#E7EFFE',
         }}
       >
         <df-messenger-chat-bubble chat-title="myAster Assistant"></df-messenger-chat-bubble>
